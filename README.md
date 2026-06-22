@@ -1,11 +1,11 @@
-### Step 1 — Install hardware drivers
+### Step 1 - Install hardware drivers
 
 1. Connect the **ZK9500** via USB to the enrollment PC (Windows).
 2. Download and install the **ZKTeco USB fingerprint driver** for your device from [ZKTeco](https://www.zkteco.com/) (or the driver CD / vendor package that ships with the scanner).
 3. Open **Device Manager** → confirm the device appears under **Biometric devices** or **USB devices** without a warning icon.
 4. If Windows installs a generic driver, replace it with ZKTeco’s **ZKFinger** / **ZK9500** driver when prompted.
 
-### Step 2 — Verify SDK libraries
+### Step 2 - Verify SDK libraries
 
 The project includes the ZKFinger C# wrapper in:
 
@@ -17,7 +17,7 @@ ZK9500/lib/
 
 If capture fails after driver install, copy the matching `libzkfp.dll` and `libzkfpcsharp.dll` from your ZKTeco **ZKFinger SDK** package (must match scanner firmware / SDK version).
 
-### Step 3 — Install .NET 8 SDK
+### Step 3 - Install .NET 8 SDK
 
 ```bash
 dotnet --version   # should be 8.x
@@ -25,7 +25,7 @@ dotnet --version   # should be 8.x
 
 Download: https://dotnet.microsoft.com/download/dotnet/8.0
 
-### Step 4 — Build and run the scanner service
+### Step 4 - Build and run the scanner service
 
 ```bash
 cd ZK9500
