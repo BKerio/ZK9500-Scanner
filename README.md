@@ -13,7 +13,7 @@ The project includes the ZKFinger C# wrapper in:
 ```text
 ZK9500/lib/
 ├── libzkfpcsharp.dll   # .NET binding
-└── libzkfp.dll         # Native driver (copied to build output)  ''''''
+└── libzkfp.dll         # Native driver (copied to build output)
 ```
 
 If capture fails after driver install, copy the matching `libzkfp.dll` and `libzkfpcsharp.dll` from your ZKTeco **ZKFinger SDK** package (must match scanner firmware / SDK version).
